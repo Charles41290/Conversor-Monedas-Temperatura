@@ -22,8 +22,7 @@ public class ConversorMonedas {
 	public void convertirPesosArgentinosALibras(double montoAConvertir) {
 		double montoConvertido = montoAConvertir*0.0044;
 		montoConvertido = (double) Math.round(montoConvertido*100d/100);
-		JOptionPane.showMessageDialog(null, "El resultado de la conversion es: "+
-				montoConvertido+" Libras Esterlinas");
+		
 	}
 	
 	public void convertirPesosArgentinosAYen(double montoAConvertir) {
