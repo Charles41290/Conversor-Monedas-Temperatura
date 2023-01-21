@@ -6,9 +6,39 @@ public class ConversorMonedas {
 	
 	
 	public void convertirPesosArgentinosADolares(double montoAConvertir) {
-		double montoDolares = montoAConvertir*0.0055;
-		montoDolares = (double) Math.round(montoDolares*100d/100);
+		double montoConvertido = montoAConvertir*0.0055;
+		montoConvertido = (double) Math.round(montoConvertido*100d/100);
 		JOptionPane.showMessageDialog(null, "El resultado de la conversion es: "+
-				montoDolares+" dolares americanos");
+				montoConvertido+" Dolares-Americanos");
 	}
+	
+	public void convertirPesosArgentinosAEuros(double montoAConvertir) {
+		double montoConvertido = montoAConvertir*0.0050;
+		montoConvertido = (double) Math.round(montoConvertido*100d/100);
+		JOptionPane.showMessageDialog(null, "El resultado de la conversion es: "+
+				montoConvertido+" Euros");
+	}
+	
+	public void convertirPesosArgentinosALibras(double montoAConvertir) {
+		double montoConvertido = montoAConvertir*0.0044;
+		montoConvertido = (double) Math.round(montoConvertido*100d/100);
+		JOptionPane.showMessageDialog(null, "El resultado de la conversion es: "+
+				montoConvertido+" Libras Esterlinas");
+	}
+	
+	public void convertirPesosArgentinosAYen(double montoAConvertir) {
+		double montoConvertido = montoAConvertir*0.71;
+		montoConvertido = (double) Math.round(montoConvertido*100d/100);
+		JOptionPane.showMessageDialog(null, "El resultado de la conversion es: "+
+				montoConvertido+" Euros");
+	}
+	
+	public void convertirPesosArgentinosAWon(double montoAConvertir) {
+		double montoConvertido = montoAConvertir*6.72;
+		montoConvertido = (double) Math.round(montoConvertido*100d/100);
+		JOptionPane.showMessageDialog(null, "El resultado de la conversion es: "+
+				montoConvertido+" Euros");
+	}
+	
+	
 }
