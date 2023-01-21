@@ -10,7 +10,17 @@ public class App {
 				JOptionPane.INFORMATION_MESSAGE, null,
 				valores, valores[0])).toString();
 		
-		System.out.println(opciones);
+		switch (opciones) {
+			case "Conversor de monedas":
+				String input = JOptionPane.showInputDialog("Ingrese la cantidad a convertir");
+				System.out.println("Conversor de monedas");
+				break;
+	
+			default:
+				break;
+		}
+		
+	
 		
 	}
 }
