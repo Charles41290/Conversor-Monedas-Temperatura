@@ -12,7 +12,12 @@ public class App {
 		
 		switch (opciones) {
 			case "Conversor de monedas":
-				String input = JOptionPane.showInputDialog("Ingrese la cantidad a convertir");
+				String input = JOptionPane.showInputDialog("Ingrese el valor a convertir");
+				new ConversorMonedas().convertirPesosArgentinosADolares(Double.valueOf(input));
+				break;
+		
+			case "Conversor de temperatura":
+				String input2 = JOptionPane.showInputDialog("Ingrese la cantidad a convertir");
 				System.out.println("Conversor de monedas");
 				break;
 	
