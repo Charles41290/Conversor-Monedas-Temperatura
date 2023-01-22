@@ -2,7 +2,7 @@ package com.alura.conversor_de_monedas;
 
 import javax.swing.JOptionPane;
 
-public class Function {
+public class FunctionMonedas {
 	
 	public void mostrarOpcionesDeMonedas(double monto) {
 		Object[] valores = { "Pesos Argentinos a Dólares americanos", "Pesos Argentinos a Euros",
@@ -26,6 +26,7 @@ public class Function {
 	
 	}
 	
+
 	public void evaluarOpcion(String opciones, double monto) {
 		switch (opciones) {
 				case "Pesos argentinos a Dólares americanos":
